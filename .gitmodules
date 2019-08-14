@@ -1,0 +1,3 @@
+[submodule "themes/resume"]
+	path = themes/resume
+	url = https://xaoxuu@github.com/xaoxuu/hexo-theme-resume.git
