@@ -1,0 +1,196 @@
+# Hexo Configuration
+
+# Site
+language: zh-CN
+
+shortcut_icon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+
+# 主题
+theme: resume
+# 简历信息
+resume:
+  # 简历标题
+  title: 简历标题
+  # 应聘者姓名
+  name: 姓名
+  # 邮箱
+  email: me@xaoxuu.com
+  # 电话号码
+  phone: 1xxxxxxxxxx
+  # 附件下载链接
+  download:
+    title: 下载简历模板
+    icon: fas fa-download fa-fw
+    url: https://github.com/xaoxuu/hexo-theme-resume
+
+# 页脚社交信息
+social:
+  - icon: fas fa-envelope
+    url: mailto:me@xaoxuu.com
+  - icon: fab fa-github
+    url: https://github.com/xaoxuu
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://mxclub.github.io/resume
+# url: http://localhost:4000
+root: /resume/
+permalink: posts/:title/
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+
+# Directory
+source_dir: src
+public_dir: public
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+auto_spacing: false # Add spaces between asian characters and western characters
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+max_open_file: 100
+multi_thread: true
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: '    '
+
+index_generator:
+  path: 'index'
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 0
+category: 0
+tag: 0
+
+# Server
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+port: 4000
+logger: false
+logger_format:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: 'YYYY-MM-DD dddd'
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Disqus
+disqus_shortname:
+
+# Extensions
+## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
+## Themes: https://github.com/tommy351/hexo/wiki/Themes
+
+exclude_generator:
+
+# Markdown
+## https://github.com/chjj/marked
+markdown:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
+
+
+# Offline
+## Config passed to sw-precache
+## https://github.com/JLHwung/hexo-offline
+offline:
+  maximumFileSizeToCacheInBytes: 10485760
+  staticFileGlobs:
+    - public/**/*.{js,html,css,png,jpg,jpeg,gif,svg,eot,ttf,woff,woff2,json,xml}
+  stripPrefix: public
+  verbose: true
+  runtimeCaching:
+    # Ad Sources - should be networkFirst
+    - urlPattern: /*
+      handler: networkFirst
+      options:
+        origin: sendgrid.sp1.convertro.com
+    - urlPattern: /*
+      handler: networkFirst
+      options:
+        origin: ad.doubleclick.net
+    # CDNs - should be cacheFirst, since they should be used specific versions so should not change
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: cdn.jsdelivr.net
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: fonts.googleapis.com
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: fonts.gstatic.com
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: cdnjs.cloudflare.com
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: maxcdn.bootstrapcdn.com
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+nofollow:
+  enable: true
+  exclude:
+    - xaoxuu.com
+
+import:
+  # style: true
+  js: true
+
+all_minifier: true
+
+# 百度统计key
+# baidu_analytics_key: cd037d28d6a6eaf5b81b7c9b024741cc
+
+# Deployment
+## Docs: http://zespia.tw/hexo/docs/deployment.html
+deploy:
+- type: git
+  repo: https://github.com/mxclub/resume.git
+  branch: master
+  message: update
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
