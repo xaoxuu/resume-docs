@@ -4,7 +4,7 @@
 
 <ul class="pure circle center about"><li><img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png"></li></ul>
 
-<h3><b><center>姓名 - 某攻城狮</center></b></h3>
+<h3><b><center>姓名 - 首席贴膜攻城狮</center></b></h3>
 
 <center><p>1800年开始从事贴膜行业，现就职于[某某公司]()</p></center>
 
@@ -40,7 +40,7 @@
 
 {% raw %}<div class="style-example example">{% endraw %}
 
-<ul class="pure rounded"><li>[<img src="https://i.loli.net/2019/08/10/S4BJYfVdetnMj3l.png" width="48px">心率管家](https://apps.apple.com/cn/app/heartrate-mate/id1361869971?ls=1)</li>
+<ul class="pure rounded"><li>[<img src="https://i.loli.net/2019/08/10/S4BJYfVdetnMj3l.png" width="48px">心率管家](https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1)</li>
 <li>[<img src="https://i.loli.net/2019/08/10/9DTtOhEIV248JnM.jpg" width="48px">C养老](https://apps.apple.com/cn/app/c%E5%85%BB%E8%80%81/id1458315594)</li>
 <li>[<img src="https://i.loli.net/2019/08/10/71rYMtDPnSVo3dj.jpg" width="48px">C-Life养老](https://apps.apple.com/cn/app/c-life%E5%85%BB%E8%80%81/id1393937890)</li>
 <li>[<img src="https://i.loli.net/2019/08/10/SHcRozVJy1l5W72.jpg" width="48px">飞亚达腕能助手](https://apps.apple.com/cn/app/%E8%85%95%E8%83%BD%E5%8A%A9%E6%89%8B/id1138242219)</li>
