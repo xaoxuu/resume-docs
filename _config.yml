@@ -179,6 +179,14 @@ import:
 
 all_minifier: true
 
+
+# 图片懒加载
+lazyload:
+  enable: true
+  onlypost: false
+  loadingImg: https://img.vim-cn.com/92/d570170f4f12e1ee829ca0e85a7dffeb77343a.svg
+
+
 # 百度统计key
 # baidu_analytics_key: cd037d28d6a6eaf5b81b7c9b024741cc
 

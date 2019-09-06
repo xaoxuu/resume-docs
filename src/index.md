@@ -77,6 +77,29 @@
 * 使用Swift5编写。
 * 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
 * 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
+* 源码：https://github.com/xaoxuu/ProHUD
+
+<fancybox>
+![1.PNG](https://i.loli.net/2019/08/20/sgultOmRLXrwfA3.png)&nbsp;
+![2.PNG](https://i.loli.net/2019/08/20/a2mCq871PwfbZEG.png)&nbsp;
+![3.PNG](https://i.loli.net/2019/08/20/Zdz2cTphOlu3XKf.png)&nbsp;
+![4.PNG](https://i.loli.net/2019/08/20/87UdSGaMuevV1iF.png)&nbsp;
+![5.PNG](https://i.loli.net/2019/08/20/HEusSLBgG3XC1nN.png)
+</fancybox>
+
+<fancybox>
+![6.PNG](https://i.loli.net/2019/08/20/B178IvGZgbzjiuk.png)&nbsp;
+![7.PNG](https://i.loli.net/2019/08/20/YSNEX3fmdtiarjZ.png)&nbsp;
+![8.PNG](https://i.loli.net/2019/08/20/zlDXtWKfR3pLkji.png)&nbsp;
+![9.PNG](https://i.loli.net/2019/08/20/NEewmBV27fhW4yI.png)&nbsp;
+![10.PNG](https://i.loli.net/2019/08/20/XYvCIow2faRtn9P.png)
+</fancybox>
+
+<fancybox>
+![11.PNG](https://i.loli.net/2019/08/20/nHqKmNOEejgxbrf.png)&nbsp;
+![12.PNG](https://i.loli.net/2019/08/20/kScIodEnmbpaT5Y.png)&nbsp;
+![13.PNG](https://i.loli.net/2019/08/20/2RomGEC1KfSvIP9.png)
+</fancybox>
 
 ### Inspire
 
@@ -84,43 +107,36 @@
 
 * 使用Swift5编写。
 * 适用于独立开发者的主题管理器。
+* 源码：https://github.com/xaoxuu/Inspire
 
+### ValueX
 
-### AXKit
+#### 2019/08 ~ 至今，实用的安全对象类型转换库（ObjC）
 
-#### 2016 ~ 2019：Objective-C综合型工具包
+- NSString/NSNumber/NSArray/NSSet/NSDictionary/NSData 无缝转换
+- 有效避免后台返回数据类型异常导致程序崩溃
+- 快速由已知对象得到期望的对象类型
+- 源码：https://github.com/xaoxuu/ValueX
 
-这是一个综合型的开发工具包，包含对系统类的功能扩展和一些常用控件的封装。
-
-* 使用block的方式创建一个UI控件并为其添加事件响应或者手势。
-* 使用链式语法进行字符串操作、沙盒文件存取和编辑操作、日期修改操作
-* 万能控制器跳转（push/pop到任意层级的VC、跳转到指定文件名的VC）。
-* 提供了代码冷却函数，一段时间内不会重复执行。
 
 
 ### Material X
 
+
 <fancybox>
 ![](https://img.vim-cn.com/52/a54815c02ce232f11f54b2c547c1337828833c.png)
 </fancybox>
-<fancybox>
-![图片有点大，如果看不到图片请刷新一下网页～](https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/wiki/material-x/349a2633dbfb842ea62ff9d810ca9b4a8dbb33.png)
-![图片有点大，如果看不到图片请刷新一下网页～](https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/wiki/material-x/9ae699a4d7c8a7fa5a3007fc37e0b61b5b55bd.png)
-![图片有点大，如果看不到图片请刷新一下网页～](https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/wiki/material-x/d3f01cd009b11025b453c697173855649d01a0.png)
-![图片有点大，如果看不到图片请刷新一下网页～](https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/wiki/material-x/7a9f2a9360f6c8a4da9e00f5e1e8500ddbb223.png)
-![图片有点大，如果看不到图片请刷新一下网页～](https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/wiki/material-x/fffd5955330a5d55c55401539da4bac77d5438.png)
-</fancybox>
+
 
 #### 2017 ~ 至今，一个简约的卡片式Hexo博客主题
 
 * 完全自由的模块化、易于定制化设计
 * 移动端优化
+* 源码：https://github.com/xaoxuu/hexo-theme-material-x
 
 ## <i class="fas fa-comments"></i> 博客与技术交流
 
-
-* 2000年8月 《XXX》
-* 1900年8月 《XXX》
+* 2017年5月 [《如何搭建基于Hexo的独立博客》](https://xaoxuu.com/blog/2017-07-05-hexo-blog/)
 
 
 ## <i class="fas fa-phone-alt"></i> 与我联系
@@ -129,6 +145,15 @@
 
 <i class="fas fa-envelope fa-fw"></i> me@xaoxuu.com
 <i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
+
+
+## 主题文档
+
+这个主题非常简单，不再提供文档，请直接下载示例的源码，参考源码进行改写。
+
+- 示例源码：https://github.com/xaoxuu/resume-example
+- 主题源码：https://github.com/xaoxuu/hexo-theme-resume
+
 
 <br><br><br><br>
 <center>**十分感谢您百忙之中抽出时间查看我的简历，希望有幸能与您共事！**</center>

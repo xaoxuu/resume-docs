@@ -24,6 +24,7 @@
     "hexo-generator-index": "^0.2.1",
     "hexo-generator-seo-friendly-sitemap": "0.0.22",
     "hexo-generator-tag": "^0.2.0",
+    "hexo-lazyload-image": "^1.0.3",
     "hexo-offline": "^0.2.3",
     "hexo-renderer-ejs": "^0.3.1",
     "hexo-renderer-marked": "^0.3.0",
