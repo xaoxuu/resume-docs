@@ -15,22 +15,22 @@ resume:
   title: 简历标题
   # 应聘者姓名
   name: 姓名
-  # 邮箱
-  email: me@xaoxuu.com
-  # 电话号码
-  phone: 1xxxxxxxxxx
+  # 联系方式
+  contact:
+    # 邮箱
+    - icon: fas fa-envelope
+      text: me@xaoxuu.com
+      url: mailto:me@xaoxuu.com
+    # 电话号码
+    - icon: fas fa-phone-alt
+      text: 1xxxxxxxxxx
+      url: tel:10086
   # 附件下载链接
   download:
     title: 下载简历模板
     icon: fas fa-download fa-fw
     url: https://github.com/xaoxuu/hexo-theme-resume
 
-# 页脚社交信息
-social:
-  - icon: fas fa-envelope
-    url: mailto:me@xaoxuu.com
-  - icon: fab fa-github
-    url: https://github.com/xaoxuu
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -194,7 +194,7 @@ lazyload:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/mxclub/resume.git
+  repo: git@github.com:mxclub/resume.git
   branch: master
   message: update
 

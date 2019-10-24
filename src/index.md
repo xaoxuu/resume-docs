@@ -4,7 +4,7 @@
 
 <ul class="pure circle center about"><li><img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png"></li></ul>
 
-<h3><b><center>姓名 - 首席贴膜攻城狮</center></b></h3>
+<h3><b><center>姓名 - 祖传贴膜</center></b></h3>
 
 <center><p>1800年开始从事贴膜行业，现就职于[某某公司]()</p></center>
 
