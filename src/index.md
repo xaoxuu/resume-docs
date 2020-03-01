@@ -70,6 +70,16 @@
 
 ## <i class="fab fa-github"></i> 开源贡献
 
+
+### Volantis
+
+#### 2017 ~ 至今，一个简约的卡片式Hexo博客主题
+
+* 完全自由的模块化、易于定制化设计
+* 移动端优化
+* 源码：https://github.com/xaoxuu/hexo-theme-volantis
+* 官网：https://volantis.js.org/
+
 ### ProHUD
 
 #### 2019/08 ~ 至今，易于定制、接口简单的HUD库
@@ -85,20 +95,11 @@
 ![3.PNG](https://i.loli.net/2019/08/20/Zdz2cTphOlu3XKf.png)&nbsp;
 ![4.PNG](https://i.loli.net/2019/08/20/87UdSGaMuevV1iF.png)&nbsp;
 ![5.PNG](https://i.loli.net/2019/08/20/HEusSLBgG3XC1nN.png)
-</fancybox>
-
-<fancybox>
 ![6.PNG](https://i.loli.net/2019/08/20/B178IvGZgbzjiuk.png)&nbsp;
 ![7.PNG](https://i.loli.net/2019/08/20/YSNEX3fmdtiarjZ.png)&nbsp;
 ![8.PNG](https://i.loli.net/2019/08/20/zlDXtWKfR3pLkji.png)&nbsp;
 ![9.PNG](https://i.loli.net/2019/08/20/NEewmBV27fhW4yI.png)&nbsp;
 ![10.PNG](https://i.loli.net/2019/08/20/XYvCIow2faRtn9P.png)
-</fancybox>
-
-<fancybox>
-![11.PNG](https://i.loli.net/2019/08/20/nHqKmNOEejgxbrf.png)&nbsp;
-![12.PNG](https://i.loli.net/2019/08/20/kScIodEnmbpaT5Y.png)&nbsp;
-![13.PNG](https://i.loli.net/2019/08/20/2RomGEC1KfSvIP9.png)
 </fancybox>
 
 ### Inspire
@@ -118,21 +119,6 @@
 - 快速由已知对象得到期望的对象类型
 - 源码：https://github.com/xaoxuu/ValueX
 
-
-
-### Material X
-
-
-<fancybox>
-![](https://img.vim-cn.com/52/a54815c02ce232f11f54b2c547c1337828833c.png)
-</fancybox>
-
-
-#### 2017 ~ 至今，一个简约的卡片式Hexo博客主题
-
-* 完全自由的模块化、易于定制化设计
-* 移动端优化
-* 源码：https://github.com/xaoxuu/hexo-theme-material-x
 
 ## <i class="fas fa-comments"></i> 博客与技术交流
 

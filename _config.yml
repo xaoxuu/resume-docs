@@ -180,7 +180,7 @@ deploy:
 - type: git
   repo: git@github.com:mxclub/resume.git
   branch: master
-  message: update
+  message: update pages
 
 feed:
   type: atom
