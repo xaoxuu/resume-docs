@@ -9,34 +9,12 @@ avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 
 # 主题
 theme: resume
-# 简历信息
-resume:
-  # 简历标题
-  title: Online Resume
-  # 应聘者姓名
-  name: Name
-  # 联系方式
-  contact:
-    # 邮箱
-    - icon: fas fa-envelope
-      text: here is your email
-      url: mailto:me@xaoxuu.com
-    # 电话号码
-    - icon: fas fa-phone-alt
-      text: 1xxxxxxxxxx
-      url: tel:10086
-  # 附件下载链接
-  download:
-    title: 下载简历模板
-    icon: fas fa-download fa-fw
-    url: https://github.com/xaoxuu/hexo-theme-resume
-
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://mxclub.github.io/resume
+url: https://resume.js.org
 # url: http://localhost:4000
-root: /resume/
+root: /
 permalink: posts/:title/
 tag_dir: tags
 archive_dir: archives

@@ -1,17 +1,17 @@
 ---
-lang: en
+lang: zh-cn
 # 简历标题
-resume_title: Daenerys Targaryen's Resume
+resume_title: 丹妮莉丝 · 坦格利安 的简历
 # 应聘者姓名
-name: Daenerys Targaryen
+name: 丹妮莉丝·坦格利安
 # 联系方式
 contact:
   - icon: fas fa-globe-asia
-    text: resume.js.org
+    text: resume.js.org/zh-cn/
     url: https://resume.js.org
   # 邮箱
   - icon: fas fa-envelope
-    text: your email
+    text: 电子邮件
     url:
   # 电话号码
   - icon: fas fa-phone-alt
@@ -19,7 +19,7 @@ contact:
     url: tel:10086
 # 附件下载链接
 download:
-  title: Download PDF
+  title: 下载PDF简历
   icon: fas fa-download fa-fw
   url: https://github.com/xaoxuu/hexo-theme-resume
 ---
@@ -27,7 +27,7 @@ download:
 {% raw %}
 <grid>
 <avatar><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png"></avatar>
-<h1>Resume Theme for Hexo</h1>
+<h1>Hexo 简历主题</h1>
 <center>
 <a href='/'>English</a> | <a href='/zh-cn/'>简体中文</a>
 </center>
