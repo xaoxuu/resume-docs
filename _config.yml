@@ -3,23 +3,23 @@
 # Site
 language: zh-CN
 
-shortcut_icon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
-favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
-avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+shortcut_icon: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+favicon: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 
 # 主题
 theme: resume
 # 简历信息
 resume:
   # 简历标题
-  title: 简历标题
+  title: Online Resume
   # 应聘者姓名
-  name: 姓名
+  name: Name
   # 联系方式
   contact:
     # 邮箱
     - icon: fas fa-envelope
-      text: me@xaoxuu.com
+      text: here is your email
       url: mailto:me@xaoxuu.com
     # 电话号码
     - icon: fas fa-phone-alt
@@ -46,6 +46,8 @@ code_dir: downloads/code
 # Directory
 source_dir: src
 public_dir: public
+skip_render: README.md
+exclude: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -178,7 +180,7 @@ lazyload:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
 - type: git
-  repo: git@github.com:mxclub/resume.git
+  repo: git@github.com:xaoxuu/resume.js.org.git
   branch: master
   message: update pages
 

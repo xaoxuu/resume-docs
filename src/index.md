@@ -2,11 +2,11 @@
 
 <br>
 
-<ul class="pure circle center about"><li><img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png"></li></ul>
+<ul class="pure circle center about"><li><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png"></li></ul>
 
-<h3><b><center>姓名 - 祖传贴膜</center></b></h3>
+<h3><b><center>resume.js.org</center></b></h3>
 
-<center><p>1800年开始从事贴膜行业，现就职于[某某公司]()</p></center>
+<center><p>This is a cool resume theme for Hexo 3.9</p></center>
 
 <br>
 
@@ -14,29 +14,29 @@
 
 
 
-## <i class="fas fa-user-graduate"></i> 教育背景
+## <i class="fas fa-user-graduate"></i> Education
 
-**XX大学 X学院 · X科 · X专业 X年毕业**
-
-
-## <i class="fas fa-user-tie"></i> 工作经验
+**XX University X CollegeX Course X Major X Graduation**
 
 
-#### 2000年 ~ 至今：XX公司
-
-* 主要负责XXX
-
-#### 1900年 ~ 2000年：XX公司
-
-* 主要负责XXX
-
-#### 1800年 ~ 1900年：XX公司
-
-* 主要负责XXX
+## <i class="fas fa-user-tie"></i> Work Experience
 
 
+#### 2000 ~ Present: Company XX
 
-## <i class="fas fa-award"></i> 精选项目
+* Mainly responsible for XXX
+
+#### 1900 ~ 2000: Company XX
+
+* Mainly responsible for XXX
+
+#### 1800 ~ 1900: company XX
+
+* Mainly responsible for XXX
+
+
+
+## <i class="fas fa-award"></i> Featured Projects
 
 {% raw %}<div class="style-example example">{% endraw %}
 
@@ -50,30 +50,30 @@
 {% raw %}</div>{% endraw %}
 
 
-### A项目
+### Project A
 
-#### 2000/01 ~ 2019/01：于XX公司开发，团队项目，维护至今
-
-啦啦啦
-
-### B项目
-
-#### 1900/01 ~ 2000/01：于XX公司开发
+#### 2000/01 ~ 2019/01: Developed by XX company, team project, maintenance so far
 
 啦啦啦
 
-### C项目
+### Project B
 
-#### 1800/01 ~ 1900/01：于XX公司开发
+#### 1900/01 ~ 2000/01: Developed by XX company
 
 啦啦啦
 
-## <i class="fab fa-github"></i> 开源贡献
+### Project C
+
+#### 1800/01 ~ 1900/01: Developed by XX company
+
+啦啦啦
+
+## <i class="fab fa-github"></i> Open Source Contributions
 
 
 ### Volantis
 
-#### 2017 ~ 至今，一个简约的卡片式Hexo博客主题
+#### 2017 ~ Present, a wonderful blog theme for Hexo 4.2
 
 * 完全自由的模块化、易于定制化设计
 * 移动端优化
@@ -82,7 +82,7 @@
 
 ### ProHUD
 
-#### 2019/08 ~ 至今，易于定制、接口简单的HUD库
+#### 2019/08 ~ present, HUD library with easy customization and simple interface
 
 * 使用Swift5编写。
 * 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
@@ -120,12 +120,12 @@
 - 源码：https://github.com/xaoxuu/ValueX
 
 
-## <i class="fas fa-comments"></i> 博客与技术交流
+## <i class="fas fa-comments"></i> Blog and Technology Exchange
 
 * 2017年5月 [《如何搭建基于Hexo的独立博客》](https://xaoxuu.com/blog/2017-07-05-hexo-blog/)
 
 
-## <i class="fas fa-phone-alt"></i> 与我联系
+## <i class="fas fa-phone-alt"></i> Contact me
 
 目前状态为：在职，考虑换工作，100年内可到岗。
 
@@ -133,9 +133,9 @@
 <i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
 
 
-## 主题文档
+## Document
 
-这个主题非常简单，不再提供文档，请直接下载示例的源码，参考源码进行改写。
+请直接下载本站的源码，参考源码进行改写。
 
 - 示例源码：https://github.com/xaoxuu/resume-example
 - 主题源码：https://github.com/xaoxuu/hexo-theme-resume

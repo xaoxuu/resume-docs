@@ -1,1 +1,3 @@
-# resume-example
+# resume-docs
+
+https://resume.js.org
