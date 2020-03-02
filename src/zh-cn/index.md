@@ -1,9 +1,9 @@
 ---
 lang: zh-cn
 # 简历标题
-resume_title: 丹妮莉丝 · 坦格利安 的简历
+resume_title: 丹妮莉丝·坦格利安的简历
 # 应聘者姓名
-name: 丹妮莉丝·坦格利安
+name: 丹妮莉丝
 # 联系方式
 contact:
   - icon: fas fa-globe-asia
@@ -19,7 +19,7 @@ contact:
     url: tel:10086
 # 附件下载链接
 download:
-  title: 下载PDF简历
+  title: 下载 PDF 简历
   icon: fas fa-download fa-fw
   url: https://github.com/xaoxuu/hexo-theme-resume
 ---
@@ -37,29 +37,29 @@ download:
 
 
 
-## <i class="fas fa-user-graduate"></i> Education
+## <i class="fas fa-user-graduate"></i> 教育背景
 
-**XX University X CollegeX Course X Major X Graduation**
-
-
-## <i class="fas fa-user-tie"></i> Work Experience
+**XX大学 X学院 · X系 · X专业 X年毕业**
 
 
-#### 2000 ~ Present: Company XX
-
-* Mainly responsible for XXX
-
-#### 1900 ~ 2000: Company XX
-
-* Mainly responsible for XXX
-
-#### 1800 ~ 1900: company XX
-
-* Mainly responsible for XXX
+## <i class="fas fa-user-tie"></i> 工作经验
 
 
+#### 2000年 ~ 至今：XX公司
 
-## <i class="fas fa-award"></i> Featured Projects
+* 主要负责XXX
+
+#### 1900年 ~ 2000年：XX公司
+
+* 主要负责XXX
+
+#### 1800年 ~ 1900年：XX公司
+
+* 主要负责XXX
+
+
+
+## <i class="fas fa-award"></i> 精选项目
 
 
 {% raw %}
@@ -92,30 +92,30 @@ download:
 {% endraw %}
 
 
-### Project A
+### A项目
 
-#### 2000/01 ~ 2019/01: Developed by XX company, team project, maintenance so far
-
-啦啦啦
-
-### Project B
-
-#### 1900/01 ~ 2000/01: Developed by XX company
+#### 2000/01 ~ 2019/01：于XX公司开发，团队项目，维护至今
 
 啦啦啦
 
-### Project C
+### B项目
 
-#### 1800/01 ~ 1900/01: Developed by XX company
+#### 1900/01 ~ 2000/01：于XX公司开发
 
 啦啦啦
 
-## <i class="fab fa-github"></i> Open Source Contributions
+### C项目
+
+#### 1800/01 ~ 1900/01：于XX公司开发
+
+啦啦啦
+
+## <i class="fab fa-github"></i> 开源贡献
 
 
 ### Volantis
 
-#### 2017 ~ Present, a wonderful blog theme for Hexo 4.2
+#### 2017 ~ 至今，一个简约的卡片式Hexo博客主题
 
 * 完全自由的模块化、易于定制化设计
 * 移动端优化
@@ -124,7 +124,7 @@ download:
 
 ### ProHUD
 
-#### 2019/08 ~ present, HUD library with easy customization and simple interface
+#### 2019/08 ~ 至今，易于定制、接口简单的HUD库
 
 * 使用Swift5编写。
 * 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
@@ -163,12 +163,12 @@ download:
 - 源码：https://github.com/xaoxuu/ValueX
 
 
-## <i class="fas fa-comments"></i> Blog & Technology Share
+## <i class="fas fa-comments"></i> 博客与技术交流
 
 * 2017年5月 [《如何搭建基于Hexo的独立博客》](https://xaoxuu.com/blog/2017-07-05-hexo-blog/)
 
 
-## <i class="fas fa-phone-alt"></i> Contact
+## <i class="fas fa-phone-alt"></i> 与我联系
 
 目前状态为：在职，考虑换工作，100年内可到岗。
 
@@ -176,7 +176,7 @@ download:
 <i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
 
 
-## Document
+## 主题文档
 
 请直接下载本站的源码，参考源码进行改写。
 

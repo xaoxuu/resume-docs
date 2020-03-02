@@ -1,7 +1,7 @@
 ---
 lang: en
 # 简历标题
-resume_title: Daenerys Targaryen's Resume
+resume_title: Daenerys Targaryen
 # 应聘者姓名
 name: Daenerys Targaryen
 # 联系方式
