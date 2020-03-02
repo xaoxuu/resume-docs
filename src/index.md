@@ -1,27 +1,32 @@
 ---
+# Language (Optional)
 lang: en
-# 简历标题
-resume_title: Daenerys Targaryen
-# 应聘者姓名
-name: Daenerys Targaryen
-# 联系方式
+# Site Keywords & Description
+keywords: Resume,Hexo,Resume Theme
+description: This is a cool resume theme for hexo.
+# Resume Title
+resume_title: Jon Snow's Resume
+# Job Applicant Name
+name: Jon Snow
+# Contact
 contact:
-  - icon: fas fa-globe-asia
-    text: resume.js.org
+  # URL
+  - icon: fas fa-globe-europe
+    text: https://resume.js.org
     url: https://resume.js.org
-  # 邮箱
+  # Email
   - icon: fas fa-envelope
     text: your email
     url:
-  # 电话号码
+  # Phone Number
   - icon: fas fa-phone-alt
     text: 1xxxxxxxxxx
     url: tel:10086
-# 附件下载链接
+# PDF Download Link
 download:
-  title: Download PDF
+  title: Download
   icon: fas fa-download fa-fw
-  url: https://github.com/xaoxuu/hexo-theme-resume
+  url: https://github.com/xaoxuu/resume-docs
 ---
 
 {% raw %}
@@ -36,10 +41,17 @@ download:
 {% endraw %}
 
 
+## <i class="fas fa-flag"></i> Getting Started
+
+Please directly download the source code of this site and refer to the source code for rewriting.
+
+- Site Source code: https://github.com/xaoxuu/resume-docs
+- Theme source code: https://github.com/xaoxuu/hexo-theme-resume
+
 
 ## <i class="fas fa-user-graduate"></i> Education
 
-**XX University X CollegeX Course X Major X Graduation**
+**XX University X College X Course X Major X Graduation**
 
 
 ## <i class="fas fa-user-tie"></i> Work Experience
@@ -47,15 +59,15 @@ download:
 
 #### 2000 ~ Present: Company XX
 
-* Mainly responsible for XXX
+- Mainly responsible for XXX
 
 #### 1900 ~ 2000: Company XX
 
-* Mainly responsible for XXX
+- Mainly responsible for XXX
 
 #### 1800 ~ 1900: company XX
 
-* Mainly responsible for XXX
+- Mainly responsible for XXX
 
 
 
@@ -117,20 +129,19 @@ download:
 
 #### 2017 ~ Present, a wonderful blog theme for Hexo 4.2
 
-* 完全自由的模块化、易于定制化设计
-* 移动端优化
-* 源码：https://github.com/xaoxuu/hexo-theme-volantis
-* 官网：https://volantis.js.org/
+- 完全自由的模块化、易于定制化设计
+- 移动端优化
+- 源码：https://github.com/xaoxuu/hexo-theme-volantis
+- 官网：https://volantis.js.org/
 
 ### ProHUD
 
 #### 2019/08 ~ present, HUD library with easy customization and simple interface
 
-* 使用Swift5编写。
-* 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
-* 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
-* 源码：https://github.com/xaoxuu/ProHUD
-
+- 使用Swift5编写。
+- 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
+- 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
+- 源码：https://github.com/xaoxuu/ProHUD
 
 <fancybox>
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot01.png'>
@@ -145,40 +156,10 @@ download:
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot10.png'>
 </fancybox>
 
-### Inspire
-
-#### 2019/03 ~ 至今，一个灵感，一种心情
-
-* 使用Swift5编写。
-* 适用于独立开发者的主题管理器。
-* 源码：https://github.com/xaoxuu/Inspire
-
-### ValueX
-
-#### 2019/08 ~ 至今，实用的安全对象类型转换库（ObjC）
-
-- NSString/NSNumber/NSArray/NSSet/NSDictionary/NSData 无缝转换
-- 有效避免后台返回数据类型异常导致程序崩溃
-- 快速由已知对象得到期望的对象类型
-- 源码：https://github.com/xaoxuu/ValueX
-
-
-## <i class="fas fa-comments"></i> Blog & Technology Share
-
-* 2017年5月 [《如何搭建基于Hexo的独立博客》](https://xaoxuu.com/blog/2017-07-05-hexo-blog/)
-
 
 ## <i class="fas fa-phone-alt"></i> Contact
 
 目前状态为：在职，考虑换工作，100年内可到岗。
 
-<i class="fas fa-envelope fa-fw"></i> me@xaoxuu.com
+<i class="fas fa-envelope fa-fw"></i> your email
 <i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
-
-
-## Document
-
-请直接下载本站的源码，参考源码进行改写。
-
-- 本站源码：https://github.com/xaoxuu/resume-docs
-- 主题源码：https://github.com/xaoxuu/hexo-theme-resume

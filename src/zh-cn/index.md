@@ -1,27 +1,31 @@
 ---
+# 语言 （可选）
 lang: zh-cn
+# 网页关键词和描述
+keywords: 简历主题,Hexo主题,简历模板
+description: 这是一个在线简历模板（Hexo博客主题）。
 # 简历标题
-resume_title: 丹妮莉丝·坦格利安的简历
+resume_title: Jon Snow' Resume
 # 应聘者姓名
-name: 丹妮莉丝
+name: Jon Snow
 # 联系方式
 contact:
   - icon: fas fa-globe-asia
-    text: resume.js.org/zh-cn/
-    url: https://resume.js.org
+    text: https://resume.js.org
+    url: https://resume.js.org/zh-cn/
   # 邮箱
   - icon: fas fa-envelope
-    text: 电子邮件
+    text: your email
     url:
   # 电话号码
   - icon: fas fa-phone-alt
     text: 1xxxxxxxxxx
     url: tel:10086
-# 附件下载链接
+# PDF下载链接
 download:
-  title: 下载 PDF 简历
+  title: 下载本站源码
   icon: fas fa-download fa-fw
-  url: https://github.com/xaoxuu/hexo-theme-resume
+  url: https://github.com/xaoxuu/resume-docs
 ---
 
 {% raw %}
@@ -36,10 +40,17 @@ download:
 {% endraw %}
 
 
+## <i class="fas fa-flag"></i> 开始使用
+
+请直接下载本站的源码，参考源码进行改写。
+
+- 本站源码：https://github.com/xaoxuu/resume-docs
+- 主题源码：https://github.com/xaoxuu/hexo-theme-resume
+
 
 ## <i class="fas fa-user-graduate"></i> 教育背景
 
-**XX大学 X学院 · X系 · X专业 X年毕业**
+**XX大学 X学院 X系 X专业 X年毕业**
 
 
 ## <i class="fas fa-user-tie"></i> 工作经验
@@ -47,16 +58,19 @@ download:
 
 #### 2000年 ~ 至今：XX公司
 
-* 主要负责XXX
+- 主要负责XXX
+- 也负责XXX
+
 
 #### 1900年 ~ 2000年：XX公司
 
-* 主要负责XXX
+- 主要负责XXX
+- 也负责XXX
 
 #### 1800年 ~ 1900年：XX公司
 
-* 主要负责XXX
-
+- 主要负责XXX
+- 也负责XXX
 
 
 ## <i class="fas fa-award"></i> 精选项目
@@ -117,20 +131,19 @@ download:
 
 #### 2017 ~ 至今，一个简约的卡片式Hexo博客主题
 
-* 完全自由的模块化、易于定制化设计
-* 移动端优化
-* 源码：https://github.com/xaoxuu/hexo-theme-volantis
-* 官网：https://volantis.js.org/
+- 完全自由的模块化、易于定制化设计
+- 移动端优化
+- 源码：https://github.com/xaoxuu/hexo-theme-volantis
+- 官网：https://volantis.js.org/
 
 ### ProHUD
 
 #### 2019/08 ~ 至今，易于定制、接口简单的HUD库
 
-* 使用Swift5编写。
-* 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
-* 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
-* 源码：https://github.com/xaoxuu/ProHUD
-
+- 使用Swift5编写。
+- 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
+- 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
+- 源码：https://github.com/xaoxuu/ProHUD
 
 <fancybox>
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot01.png'>
@@ -145,40 +158,9 @@ download:
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot10.png'>
 </fancybox>
 
-### Inspire
-
-#### 2019/03 ~ 至今，一个灵感，一种心情
-
-* 使用Swift5编写。
-* 适用于独立开发者的主题管理器。
-* 源码：https://github.com/xaoxuu/Inspire
-
-### ValueX
-
-#### 2019/08 ~ 至今，实用的安全对象类型转换库（ObjC）
-
-- NSString/NSNumber/NSArray/NSSet/NSDictionary/NSData 无缝转换
-- 有效避免后台返回数据类型异常导致程序崩溃
-- 快速由已知对象得到期望的对象类型
-- 源码：https://github.com/xaoxuu/ValueX
-
-
-## <i class="fas fa-comments"></i> 博客与技术交流
-
-* 2017年5月 [《如何搭建基于Hexo的独立博客》](https://xaoxuu.com/blog/2017-07-05-hexo-blog/)
-
-
 ## <i class="fas fa-phone-alt"></i> 与我联系
 
 目前状态为：在职，考虑换工作，100年内可到岗。
 
-<i class="fas fa-envelope fa-fw"></i> me@xaoxuu.com
+<i class="fas fa-envelope fa-fw"></i> your email
 <i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
-
-
-## 主题文档
-
-请直接下载本站的源码，参考源码进行改写。
-
-- 本站源码：https://github.com/xaoxuu/resume-docs
-- 主题源码：https://github.com/xaoxuu/hexo-theme-resume

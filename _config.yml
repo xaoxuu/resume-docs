@@ -9,7 +9,8 @@ avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 
 # 主题
 theme: resume
-
+theme_config:
+  robots: index,follow
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://resume.js.org
@@ -40,7 +41,7 @@ render_drafts: false
 post_asset_folder: false
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: '    '
 
