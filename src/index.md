@@ -163,3 +163,29 @@ Please directly download the source code of this site and refer to the source co
 
 <i class="fas fa-envelope fa-fw"></i> your email
 <i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
+
+
+
+## Theme Config
+
+```yaml resume-docs/themes/resume/_config.yml
+cdn:
+  # These base libraries cannot be deleted
+  jquery: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
+  vue: https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js
+  # When these CDN resources are deleted, local resources are loaded.
+  common: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js
+  escape: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js
+  smooth_scroll: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js
+  css: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/css/style.min.css
+  # Optional plug-in: image zoom
+  fancybox:
+    css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
+    js: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
+
+# robots meta tag
+robots: noindex,nofollow
+
+# the footer of your site
+copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
+```
