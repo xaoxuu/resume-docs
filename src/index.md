@@ -168,7 +168,7 @@ Please directly download the source code of this site and refer to the source co
 
 ## Theme Config
 
-```yaml resume-docs/themes/resume/_config.yml
+```yaml
 cdn:
   # These base libraries cannot be deleted
   jquery: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
