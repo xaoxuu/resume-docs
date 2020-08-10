@@ -2,4 +2,4 @@
 
 https://resume.js.org
 
-https://resume.vercel.app
+https://resume-docs.vercel.app
