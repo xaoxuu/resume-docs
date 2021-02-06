@@ -8,6 +8,7 @@ description: This is a cool resume theme for hexo.
 resume_title: Jon Snow's Resume
 # Job Applicant Name
 name: Jon Snow
+avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 # Contact
 contact:
   # URL
@@ -30,14 +31,9 @@ download:
 ---
 
 {% raw %}
-<grid>
-<avatar><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png"></avatar>
-<h1>Resume Theme for Hexo</h1>
 <center>
 <a href='/'>English</a> | <a href='/zh-cn/'>简体中文</a>
 </center>
-<br>
-</grid>
 {% endraw %}
 
 
@@ -189,3 +185,15 @@ robots: noindex,nofollow
 # the footer of your site
 copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
 ```
+
+## Comments
+
+{% raw %}
+<script src="https://utteranc.es/client.js"
+        repo="xaoxuu/hexo-theme-resume"
+        issue-number="17"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+{% endraw %}

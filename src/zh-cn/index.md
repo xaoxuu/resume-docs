@@ -8,6 +8,7 @@ description: 这是一个在线简历模板（Hexo博客主题）。
 resume_title: Jon Snow's Resume
 # 应聘者姓名
 name: Jon Snow
+avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 # 联系方式
 contact:
   - icon: fas fa-globe-asia
@@ -29,15 +30,11 @@ download:
 ---
 
 {% raw %}
-<grid>
-<avatar><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png"></avatar>
-<h1>Hexo 简历主题</h1>
 <center>
 <a href='/'>English</a> | <a href='/zh-cn/'>简体中文</a>
 </center>
-<br>
-</grid>
 {% endraw %}
+
 
 
 ## <i class="fas fa-flag"></i> 开始使用
@@ -229,3 +226,15 @@ robots: noindex,nofollow
 # the footer of your site
 copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
 ```
+
+## 评论
+
+{% raw %}
+<script src="https://utteranc.es/client.js"
+        repo="xaoxuu/hexo-theme-resume"
+        issue-number="18"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+{% endraw %}

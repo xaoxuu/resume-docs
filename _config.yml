@@ -142,7 +142,10 @@ nofollow:
   exclude:
     - xaoxuu.com
 
-all_minifier: true
+
+# npm i hexo-neat
+neat_enable: true
+
 
 
 # 图片懒加载
