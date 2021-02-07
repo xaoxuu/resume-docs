@@ -162,7 +162,7 @@ lazyload:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
 - type: git
-  repo: git@github.com:xaoxuu/resume.js.org.git
+  repo: https://github.com/xaoxuu/resume.js.org.git
   branch: master
   message: update pages
 
