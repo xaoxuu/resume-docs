@@ -116,25 +116,25 @@ import:
   - "<link rel='manifest' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/site.webmanifest'>"
   # script:
 
-# Offline
+# Offline v2 版写法不允许写到 _config.yml 中
 ## Config passed to sw-precache
 ## https://github.com/JLHwung/hexo-offline
 # offline config passed to sw-precache.
-offline:
-  maximumFileSizeToCacheInBytes: 10485760
-  staticFileGlobs:
-    - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
-  stripPrefix: public
-  verbose: true
-  runtimeCaching:
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdn.jsdelivr.net
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdnjs.cloudflare.com
+# offline:
+#   maximumFileSizeToCacheInBytes: 10485760
+#   staticFileGlobs:
+#     - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
+#   stripPrefix: public
+#   verbose: true
+#   runtimeCaching:
+#     - urlPattern: /*
+#       handler: cacheFirst
+#       options:
+#         origin: cdn.jsdelivr.net
+#     - urlPattern: /*
+#       handler: cacheFirst
+#       options:
+#         origin: cdnjs.cloudflare.com
 
 nofollow:
   enable: true
