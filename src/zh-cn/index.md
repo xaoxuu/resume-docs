@@ -57,28 +57,28 @@ npm i hexo-theme-resume
   "name": "hexo-site",
   "private": true,
   "hexo": {
-    "version": "5.0.0"
+    "version": "6.3.0"
+  },
+  "engines": {
+    "node": ">=16.x"
   },
   "scripts": {
     "start": "hexo server",
     "build": "node pre-deploy.js && hexo clean && hexo generate",
     "deploy": "npm run build && hexo deploy"
   },
-  "engines": {
-    "node": ">=8.9.0"
-  },
   "dependencies": {
-    "hexo": "^5.0.0",
-    "hexo-all-minifier": "^0.5.3",
+    "hexo": "^6.3.0",
     "hexo-autonofollow": "^1.0.1",
-    "hexo-deployer-git": "^2.1.0",
-    "hexo-fs": "^3.1.0",
-    "hexo-lazyload-image": "^1.0.9",
-    "hexo-offline": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^3.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-lazyload-image": "^1.0.13",
+    "hexo-offline": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.1.1",
+    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-server": "^3.0.0",
+    "hexo-all-minifier": "^0.5.7",
+    "hexo-fs": "^4.1.0"
   }
 }
 ```
